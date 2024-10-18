@@ -9,7 +9,7 @@ jobs:
     with:
       config-path: .github/labeler.yml
     secrets:
-      personal_access_token: ${{ secrets.token }}
+      envPAT: ${{ secrets.envPAT }}
 ```
 
 {% endraw %}
